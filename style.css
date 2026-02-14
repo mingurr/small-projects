@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btns {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+h1 {
+  font-family: "Gravitas One";
+  font-size: 1.75rem;
+  text-align: center;
+  color: #ff5050;
+}
+
+#playBtn {
+  border: none;
+  border-radius: 8px;
+  background-color: #ff9292;
+  padding: 10px 30px;
+  font-size: 1rem;
+}
+
+.noBtn {
+  border: none;
+  border-radius: 8px;
+  background-color: #aeaeae;
+  padding: 10px 30px;
+  font-size: 1rem;
+  transition: left 160ms ease, top 160ms ease;
+}
