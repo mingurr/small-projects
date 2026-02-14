@@ -26,6 +26,16 @@ h1 {
   color: #ff5050;
 }
 
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: #ff5050;
+}
+
 #playBtn {
   border: none;
   border-radius: 8px;
